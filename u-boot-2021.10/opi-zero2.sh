@@ -48,7 +48,7 @@ export CROSS_COMPILE=aarch64-none-linux-gnu-
 #BL31=`pwd`/../arm-trusted-firmware-sunxi-mainline/v2.2/build/sun50i_h6/debug/bl31.bin
 BL31=`pwd`/../arm-trusted-firmware-sunxi-mainline/master/build/sun50i_h616/debug/bl31.bin
 export BL31
-(cd `pwd`/../ ; ./build_atf_h616.sh)
+(cd `pwd`/../ ; ./build_atf.sh)
 
 make $NEWBPICONF
 make -j30
